@@ -1,1 +1,1 @@
-this is not routine one,it is my personal ans simple portfolio website
+this is not routine one,it is my personal and simple portfolio website
