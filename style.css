@@ -1,0 +1,165 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0f0f1b;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00d4ff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00d4ff;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    text-align: center;
+}
+
+.hero h1 span {
+    color: #00d4ff;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    background: #00d4ff;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+}
+
+/* Sections */
+.section {
+    padding: 100px 50px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #00d4ff;
+}
+
+/* Skills */
+.skill-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background: #1c1c2e;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background: #00d4ff;
+    color: black;
+}
+
+/* Projects */
+.project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background: #1c1c2e;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    background: #00d4ff;
+    color: black;
+}
+
+/* Contact */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #00d4ff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: black;
+    text-align: center;
+}

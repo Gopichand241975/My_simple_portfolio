@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevAura | Gopi Chand</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">DevAura</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Gopi Chand</span></h1>
+            <p>Aspiring AI & Full Stack Developer</p>
+            <button onclick="scrollToSection('projects')">View My Work</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I'm a Computer Science student passionate about AI, Machine Learning,
+            FastAPI backend systems and modern web design.
+            I love building impactful and unique projects.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skill-box">
+            <div class="skill">Python</div>
+            <div class="skill">FastAPI</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">MySQL</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>AI Resume Screening</h3>
+                <p>Machine learning model to rank resumes using NLP.</p>
+            </div>
+            <div class="project-card">
+                <h3>Job Portal API</h3>
+                <p>FastAPI backend system with authentication & CRUD.</p>
+            </div>
+            <div class="project-card">
+                <h3>Drone Human Detection</h3>
+                <p>YOLOv8 based edge AI detection system.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 DevAura | Built with ❤️ by Gopi Chand</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
